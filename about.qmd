@@ -5,26 +5,35 @@ sidebar: false
 
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2022 - ongoing.\
+    GPA: 3.20/4
+-   Sami Yangın Anatolian High School
 
 # Work Experience
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
-
-2.  Firm yyy, position yyy, year yyy
+1.  WonderWorks, Seasonal Team Member, June 2025 - 3 Months
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
-
-2.  Firm bbb, position yyy, year yyy
+1.  Yetkin Gencler, Trainee, (March 2023 – 3 months
 
 # Projects
 
+<https://github.com/mehmetokszgl/College-Tour-TSP>\
+This project solves a real-world, multi-day Traveling Salesman Problem for a college tour across 58 universities in Istanbul using Adaptive Large Neighborhood Search (ALNS) with Simulated Annealing and 2-opt, based on real road distance data.
+
 # Competencies
 
-R, Quarto, Git, Python
+R, Quarto, Git, Python, Microsoft Excel, AutoCAD
 
 # Hobbies
+
+Tennis\
+Chess\
+Swimming\
+Football\
+Cooking\
+\
+[Öz Geçmişime Ulaşmak İçin Tıklayın](cv-eng.pdf)

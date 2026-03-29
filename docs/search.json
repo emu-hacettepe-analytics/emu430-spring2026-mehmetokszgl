@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Welcome to My Analytics Lab",
     "section": "",
-    "text": "Hello! My name is xxx xxxx.\nThis is my personal webpage.\nPlease stay tuned to follow my works on data analytics, blog posts, and more.\nThis is our template.\n\n\n\n Back to top"
+    "text": "Hello! My name is Mehmet Öksüzoğlu.\nThis is my personal webpage.\nPlease stay tuned to follow my works on data analytics, blog posts, and more.\nThis is our template.\n\n\n\n Back to top"
   },
   {
     "objectID": "assignments/assignment-2.html",
@@ -25,28 +25,31 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing."
+    "text": "B.S., Industrial Engineering, Hacettepe University, Turkey, 2022 - ongoing.\nGPA: 3.20/4\nSami Yangın Anatolian High School"
   },
   {
     "objectID": "about.html#employements",
     "href": "about.html#employements",
     "title": "About Me",
     "section": "Employements",
-    "text": "Employements\n\nFirm xxx, position xx, year xxx\nFirm yyy, position yyy, year yyy"
+    "text": "Employements\n\nWonderWorks, Seasonal Team Member, June 2025 - 3 Months"
   },
   {
     "objectID": "about.html#internships",
     "href": "about.html#internships",
     "title": "About Me",
     "section": "Internships",
-    "text": "Internships\n\nFirm aaa, position xx, year xxx\nFirm bbb, position yyy, year yyy"
+    "text": "Internships\n\nYetkin Gencler, Trainee, (March 2023 – 3 months"
   },
   {
     "objectID": "assignments/assignment-1.html",
     "href": "assignments/assignment-1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts."
+    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts.\n\n\nTo generate the detailed summary from the video, I used an AI assistant. The prompt I used is given below:\nSummarize the following video in a clear, structured, and concise way:\nBriefly explain the main topic of the video in 1–2 sentences List the key points in bullet format Include important examples, stories, or critical explanations if present Remove unnecessary details and focus only on the most valuable information Conclude with the main takeaway or lesson from the video Additional instructions:\nUse simple and easy-to-understand language Keep it concise, but do not omit important points Organize the summary using headings if needed Video content: https://www.youtube.com/watch?v=cUPtQEyaswM&t=3282s\nThis video features Kerem Demirtaş sharing his professional journey and technical expertise at the intersection of Industrial Engineering and Data Science. It provides a roadmap for understanding how data science solves complex real-world problems, ranging from retail inventory management to the future of autonomous transportation.\n\n\n\nMisconceptions: Data science is not just “glorified statistics” or a “black box” that works without human input [19:18]. It requires domain expertise, critical thinking, and a clear understanding of the problem.\nThe Importance of Domain Knowledge: You cannot solve a problem effectively without understanding the field it belongs to; an algorithm alone is not a solution [25:40].\nAI as a Tool: Artificial Intelligence and Machine Learning are tools within the broader discipline of data science, used to extract insights and drive decision-making [24:05].\n\n\n\n\nThe speaker outlines a structured six-step process for any data science project [29:18]:\n\nProblem Definition: Identifying exactly what needs to be solved.\nData Collection: Gathering structured and unstructured data from various sources.\nExploratory Data Analysis (EDA): Visualizing and understanding the data to find patterns or outliers.\nModeling: Choosing the right mathematical or algorithmic approach.\nEvaluation: Testing for “underfitting” (too simple) or “overfitting” (too complex/memorized) [54:29].\nProduction: Deploying the model into a live environment for real-time performance.\n\n\n\n\n\nSurvivorship Bias (WWII): Abraham Wald noticed that the military was arming parts of planes where returning aircraft had bullet holes. He realized they should arm the parts without holes, as planes hit in those spots never returned. This highlights the importance of asking the right questions [36:08].\nJohn Snow and Cholera: By mapping deaths in London, Snow proved that cholera was spread through contaminated water pumps, not air, demonstrating the power of data visualization [01:06:19].\nDeep Blue vs. Kasparov: The chess match between human and machine illustrated the concept of “overfitting.” When the machine only memorized a player’s style, it struggled when the player did something unexpected [58:18].\n\n\n\n\nKerem discusses his PhD research on Autonomous Vehicle Platooning [01:06:19]:\n\nConvoy Efficiency: Autonomous vehicles can communicate to drive in tight “platoons” (convoys), which reduces traffic congestion and prevents “stop-and-go” waves caused by human braking [01:08:01].\nMixed Traffic Challenges: The research focuses on how these smart convoys can interact with human-driven cars in complex environments like multi-lane highways [01:13:08].\n\n\n\n\n\nLearn Python: It is the most versatile and essential language for modern engineering and data science [01:34:07].\nStrengthen Programming: Industrial engineers should move beyond spreadsheets and develop strong coding skills to remain competitive [10:18].\nLifelong Learning: Domain expertise is often gained “on the job” or through specific projects rather than just sitting in a classroom [01:28:44].\n\n\n\n\nThe most valuable skill in data science is not just knowing how to code, but knowing which questions to ask. Successful data-driven solutions require a blend of mathematical modeling, technical programming, and deep subject-matter expertise to turn raw data into meaningful action.\n\n\n\n\nOpen Ended Question:\n-Explain the concept of “Survivorship Bias” using the World War II bomber example shared by Kerem Demirtaş. Why was the military’s initial plan to add armor to the most damaged parts of returning planes flawed?\nAnswer: The military’s initial plan was flawed because they only analyzed planes that successfully returned from their missions. However, Abraham Wald realized that the holes on returning planes showed where a plane could be hit and still survive. The planes that were shot down were likely hit in the areas where the returning planes had no holes. The bias came from only looking at the survivors, and the lesson is that data science requires looking at what is missing, not just what is visible.\nMultiple-Choice Question\nQuestion: According to the video, what is “overfitting” in the context of data science models?\nA) When a model is too simple to capture the data.\nB) When a model performs well on live data but fails on training data.\nC) When a model memorizes specific training data too closely and fails to adapt to new situations.\nD) When a model requires too much human input to function.\nCorrect Answer: C) When a model memorizes specific training data too closely and fails to adapt to new situations.\n\n\n\n—{r}\nlibrary(dslabs)\ndata(“polls_us_election_2016”)\ndata &lt;- polls_us_election_2016\nmy_first &lt;- “Mehmet”\nmy_birth_year &lt;- 2004\nk &lt;- (nchar(my_first) + my_birth_year) %% 15 + 8\nif (k %% 2 == 0) { print(head(data, k)) } else { print(tail(data, k)) }\ntotal_na &lt;- sum(is.na(data)) print(paste(“Toplam NA sayısı:”, total_na,“”))\nna_per_column &lt;- sort(colSums(is.na(data)), decreasing = TRUE) print(“En çok NA içeren ilk 8 sütun:”) print(head(na_per_column, 8))\nnew_data &lt;- data\nnum_fill &lt;- my_birth_year + k\nchar_fill &lt;- paste0(my_first, k)\n\nfor(col_name in names(new_data)) {\nif(is.numeric(new_data[[col_name]])) {\nnew_data[[col_name]][is.na(new_data[[col_name]])] &lt;- num_fill } else {\nnew_data[[col_name]][is.na(new_data[[col_name]])] &lt;- char_fill }\n}\nif (k %% 2 == 0) {\nprint(head(new_data, k))\n} else {\nprint(tail(new_data, k))\n}\nprint(paste(“Yeni veri setindeki toplam NA:”, sum(is.na(new_data))))\nprint(anyNA(new_data))",
+    "crumbs": [
+      "Assignment 1"
+    ]
   },
   {
     "objectID": "assignments.html",
@@ -64,5 +67,35 @@
     "title": "My Blog",
     "section": "",
     "text": "This page is under construction.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "assignments/assignment-1.html#a",
+    "href": "assignments/assignment-1.html#a",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "To generate the detailed summary from the video, I used an AI assistant. The prompt I used is given below:\nSummarize the following video in a clear, structured, and concise way:\nBriefly explain the main topic of the video in 1–2 sentences List the key points in bullet format Include important examples, stories, or critical explanations if present Remove unnecessary details and focus only on the most valuable information Conclude with the main takeaway or lesson from the video Additional instructions:\nUse simple and easy-to-understand language Keep it concise, but do not omit important points Organize the summary using headings if needed Video content: https://www.youtube.com/watch?v=cUPtQEyaswM&t=3282s\nThis video features Kerem Demirtaş sharing his professional journey and technical expertise at the intersection of Industrial Engineering and Data Science. It provides a roadmap for understanding how data science solves complex real-world problems, ranging from retail inventory management to the future of autonomous transportation.\n\n\n\nMisconceptions: Data science is not just “glorified statistics” or a “black box” that works without human input [19:18]. It requires domain expertise, critical thinking, and a clear understanding of the problem.\nThe Importance of Domain Knowledge: You cannot solve a problem effectively without understanding the field it belongs to; an algorithm alone is not a solution [25:40].\nAI as a Tool: Artificial Intelligence and Machine Learning are tools within the broader discipline of data science, used to extract insights and drive decision-making [24:05].\n\n\n\n\nThe speaker outlines a structured six-step process for any data science project [29:18]:\n\nProblem Definition: Identifying exactly what needs to be solved.\nData Collection: Gathering structured and unstructured data from various sources.\nExploratory Data Analysis (EDA): Visualizing and understanding the data to find patterns or outliers.\nModeling: Choosing the right mathematical or algorithmic approach.\nEvaluation: Testing for “underfitting” (too simple) or “overfitting” (too complex/memorized) [54:29].\nProduction: Deploying the model into a live environment for real-time performance.\n\n\n\n\n\nSurvivorship Bias (WWII): Abraham Wald noticed that the military was arming parts of planes where returning aircraft had bullet holes. He realized they should arm the parts without holes, as planes hit in those spots never returned. This highlights the importance of asking the right questions [36:08].\nJohn Snow and Cholera: By mapping deaths in London, Snow proved that cholera was spread through contaminated water pumps, not air, demonstrating the power of data visualization [01:06:19].\nDeep Blue vs. Kasparov: The chess match between human and machine illustrated the concept of “overfitting.” When the machine only memorized a player’s style, it struggled when the player did something unexpected [58:18].\n\n\n\n\nKerem discusses his PhD research on Autonomous Vehicle Platooning [01:06:19]:\n\nConvoy Efficiency: Autonomous vehicles can communicate to drive in tight “platoons” (convoys), which reduces traffic congestion and prevents “stop-and-go” waves caused by human braking [01:08:01].\nMixed Traffic Challenges: The research focuses on how these smart convoys can interact with human-driven cars in complex environments like multi-lane highways [01:13:08].\n\n\n\n\n\nLearn Python: It is the most versatile and essential language for modern engineering and data science [01:34:07].\nStrengthen Programming: Industrial engineers should move beyond spreadsheets and develop strong coding skills to remain competitive [10:18].\nLifelong Learning: Domain expertise is often gained “on the job” or through specific projects rather than just sitting in a classroom [01:28:44].\n\n\n\n\nThe most valuable skill in data science is not just knowing how to code, but knowing which questions to ask. Successful data-driven solutions require a blend of mathematical modeling, technical programming, and deep subject-matter expertise to turn raw data into meaningful action.",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#b",
+    "href": "assignments/assignment-1.html#b",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "Open Ended Question:\n-Explain the concept of “Survivorship Bias” using the World War II bomber example shared by Kerem Demirtaş. Why was the military’s initial plan to add armor to the most damaged parts of returning planes flawed?\nAnswer: The military’s initial plan was flawed because they only analyzed planes that successfully returned from their missions. However, Abraham Wald realized that the holes on returning planes showed where a plane could be hit and still survive. The planes that were shot down were likely hit in the areas where the returning planes had no holes. The bias came from only looking at the survivors, and the lesson is that data science requires looking at what is missing, not just what is visible.\nMultiple-Choice Question\nQuestion: According to the video, what is “overfitting” in the context of data science models?\nA) When a model is too simple to capture the data.\nB) When a model performs well on live data but fails on training data.\nC) When a model memorizes specific training data too closely and fails to adapt to new situations.\nD) When a model requires too much human input to function.\nCorrect Answer: C) When a model memorizes specific training data too closely and fails to adapt to new situations.",
+    "crumbs": [
+      "Assignment 1"
+    ]
+  },
+  {
+    "objectID": "assignments/assignment-1.html#part-4",
+    "href": "assignments/assignment-1.html#part-4",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "—{r}\nlibrary(dslabs)\ndata(“polls_us_election_2016”)\ndata &lt;- polls_us_election_2016\nmy_first &lt;- “Mehmet”\nmy_birth_year &lt;- 2004\nk &lt;- (nchar(my_first) + my_birth_year) %% 15 + 8\nif (k %% 2 == 0) { print(head(data, k)) } else { print(tail(data, k)) }\ntotal_na &lt;- sum(is.na(data)) print(paste(“Toplam NA sayısı:”, total_na,“”))\nna_per_column &lt;- sort(colSums(is.na(data)), decreasing = TRUE) print(“En çok NA içeren ilk 8 sütun:”) print(head(na_per_column, 8))\nnew_data &lt;- data\nnum_fill &lt;- my_birth_year + k\nchar_fill &lt;- paste0(my_first, k)\n\nfor(col_name in names(new_data)) {\nif(is.numeric(new_data[[col_name]])) {\nnew_data[[col_name]][is.na(new_data[[col_name]])] &lt;- num_fill } else {\nnew_data[[col_name]][is.na(new_data[[col_name]])] &lt;- char_fill }\n}\nif (k %% 2 == 0) {\nprint(head(new_data, k))\n} else {\nprint(tail(new_data, k))\n}\nprint(paste(“Yeni veri setindeki toplam NA:”, sum(is.na(new_data))))\nprint(anyNA(new_data))",
+    "crumbs": [
+      "Assignment 1"
+    ]
   }
 ]
