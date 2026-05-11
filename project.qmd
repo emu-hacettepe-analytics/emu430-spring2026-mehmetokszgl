@@ -3,9 +3,9 @@ title: "Our Course Project"
 sidebar: false 
 ---
 
-I'm honored to be a member of the \[R'a-beni-l??tfen\] project team.
+I'm honored to be a member of the \[R'a-beni-lutfen\] project team.
 
-Below, you'll find a brief summary of our project. To access a detailed project description, please go to [https://\[your-project-url\]](https://emu-hacettepe-analytics.github.io/emu430-fall2024-team-r-a-beni-lutfen/){.uri}.
+Below, you'll find a brief summary of our project. To access a detailed project description, please go to ["Project"](https://emu-hacettepe-analytics.github.io/emu430-fall2024-team-r-a-beni-lutfen/){.uri}.
 
 **Summary**
 
